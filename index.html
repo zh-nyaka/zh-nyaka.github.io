@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="libs/select2/select2.min.css" />
+    <link rel="stylesheet" href="libs/swiper/swiper.min.css" />
+
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="libs/jquery-ui.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="body">
+    <div class="page p-main">
+      <!-- шапка -->
+      <header class="page__header">
+        <div class="container">
+          <div class="header">
+            <a href="/" class="logo">
+              <img src="./img/logo.svg" alt="" />
+            </a>
+            <ul class="top-menu">
+              <li>
+                <a href="#skills">Используемые технологии</a>
+              </li>
+              <li>
+                <a href="#experience">Опыт работы</a>
+              </li>
+              <li>
+                <a href="#about">Обо мне</a>
+              </li>
+              <li>
+                <a href="#projects">Проекты</a>
+              </li>
+              <li>
+                <a href="#contacts">Контакты</a>
+              </li>
+            </ul>
+            <div class="top-contacts">
+              <a href="https://t.me/zh_nyaka" target="_blank">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+              <a href="https://vk.com/id289449038" target="_blank">
+                <i class="fa-brands fa-vk"></i>
+              </a>
+              <a href="https://wa.me/79517053647" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="tel:+79517053647" target="_blank">
+                <span class="mdi mdi-phone"></span>
+              </a>
+              <a href="mailto:zhnyaka19@gmail.com">
+                <span class="mdi mdi-email-outline"></span>
+              </a>
+            </div>
+            <div class="mobile-menu js-mobile-menu">
+              <div class="mobile-menu__opener js-mobile-menu__opener">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mobile-menu__content js-mobile-menu__content">
+                <ul class="mobile-menu__menu">
+                  <li>
+                    <a href="#skills">Используемые технологии</a>
+                  </li>
+                  <li>
+                    <a href="#experience">Опыт работы</a>
+                  </li>
+                  <li>
+                    <a href="#about">Обо мне</a>
+                  </li>
+                  <li>
+                    <a href="#projects">Проекты</a>
+                  </li>
+                  <li>
+                    <a href="#contacts">Контакты</a>
+                  </li>
+                </ul>
+                <div class="mobile-menu__contacts">
+                  <a href="https://t.me/zh_nyaka" target="_blank">
+                    <i class="fa-brands fa-telegram"></i>
+                  </a>
+                  <a href="https://vk.com/id289449038" target="_blank">
+                    <i class="fa-brands fa-vk"></i>
+                  </a>
+                  <a href="https://wa.me/79517053647" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                  <a href="tel:+79517053647" target="_blank">
+                    <span class="mdi mdi-phone"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- /шапка -->
+      <main class="page__body p-main">
+        <div class="container">
+          <div class="top-banner">
+            <div class="top-banner__left">
+              <div class="top-banner__title">
+                Frontend Developer
+                <span>Frontend Developer</span>
+                <span>Frontend Developer</span>
+                <span>Малащенкова Евгения</span>
+              </div>
+
+              <div class="top-banner__benefits">
+                <div class="top-banner__benefit">
+                  <div class="top-banner__benefit-val" data-end-value="5">
+                    0
+                  </div>
+                  <div class="top-banner__benefit-title">лет опыта работы</div>
+                </div>
+                <div class="top-banner__benefit">
+                  <div class="top-banner__benefit-val" data-end-value="1000">
+                    0
+                  </div>
+                  <div class="top-banner__benefit-title">деплоев</div>
+                </div>
+                <div class="top-banner__benefit">
+                  <div class="top-banner__benefit-val" data-end-value="500000">
+                    0
+                  </div>
+                  <div class="top-banner__benefit-title">строк кода</div>
+                </div>
+              </div>
+              <div class="top-banner__contacts">
+                <a href="https://t.me/zh_nyaka" target="_blank">
+                  <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="https://vk.com/id289449038" target="_blank">
+                  <i class="fa-brands fa-vk"></i>
+                </a>
+                <a href="https://wa.me/79517053647" target="_blank">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="tel:+79517053647" target="_blank">
+                  <span class="mdi mdi-phone"></span>
+                </a>
+                <a href="mailto:zhnyaka19@gmail.com">
+                  <span class="mdi mdi-email-outline"></span
+                ></a>
+              </div>
+            </div>
+            <div class="top-banner__right">
+              <div class="top-banner__img">
+                <div id="pixel"></div>
+                <img src="./img/photo.png" alt="" />
+              </div>
+
+              <!-- -->
+            </div>
+          </div>
+        </div>
+        <section id="skills">
+          <div class="container">
+            <h2>Что я могу</h2>
+            <div class="skills">
+              <div class="skill">
+                <div class="skill__icon">
+                  <i class="fa-brands fa-html5"></i>
+                </div>
+                <div class="skill__title">HTML</div>
+              </div>
+              <div class="skill">
+                <div class="skill__icon">
+                  <i class="fa-brands fa-css3-alt"></i>
+                </div>
+                <div class="skill__title">CSS</div>
+              </div>
+              <div class="skill">
+                <div class="skill__icon">
+                  <i class="fa-brands fa-square-js"></i>
+                </div>
+                <div class="skill__title">JavaScript</div>
+              </div>
+              <div class="skill">
+                <div class="skill__icon">
+                  <i class="fa-brands fa-node"></i>
+                </div>
+                <div class="skill__title">Node.js</div>
+              </div>
+              <div class="skill">
+                <div class="skill__icon">
+                  <i class="fa-brands fa-git-alt"></i>
+                </div>
+                <div class="skill__title">Git</div>
+              </div>
+              <div class="skill">
+                <div class="skill__icon">
+                  <span class="mdi mdi-api"></span>
+                </div>
+                <div class="skill__title">RestApi</div>
+              </div>
+              <div class="skill">
+                <div class="skill__icon">
+                  <i class="fa-brands fa-vuejs"></i>
+                </div>
+                <div class="skill__title">Vue.js</div>
+              </div>
+              <div class="skill">
+                <div class="skill__icon">
+                  <i class="fa-brands fa-sass"></i>
+                </div>
+                <div class="skill__title">Sass</div>
+              </div>
+              <div class="skill">
+                <div class="skill__icon">
+                  <span class="mdi mdi-webpack"></span>
+                </div>
+                <div class="skill__title">Webpack</div>
+              </div>
+              <div class="skill">
+                <div class="skill__icon">
+                  <i class="mdi mdi-jquery"></i>
+                </div>
+                <div class="skill__title">jQuery</div>
+              </div>
+
+              <div class="skill">
+                <div class="skill__icon">
+                  <i class="fa-brands fa-wordpress-simple"></i>
+                </div>
+                <div class="skill__title">WordPress</div>
+              </div>
+
+              <div class="skill">
+                <div class="skill__icon">
+                  <svg
+                    viewBox="0 0 200.88113 201.18573"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="layer1" transform="translate(-76.221179,-152.76972)">
+                      <path
+                        d="M 157.27568,352.79568 C 139.70521,349.15722 123.3099,341.04088 110.43882,329.60954 77.395638,300.26251 67.183499,254.1601 84.639486,213.13914 88.926214,203.06548 95.895291,192.84219 104.53018,183.96048 l 7.61267,-7.83027 0.53693,45.83027 c 0.51393,43.86776 0.62975,46.07758 2.70484,51.60557 4.15136,11.05915 8.6019,18.10034 16.26354,25.73051 19.79124,19.70997 48.82118,24.629 73.49912,12.45419 23.1956,-11.4435 37.81893,-36.32611 36.1196,-61.46 -1.14146,-16.88261 -6.81905,-29.26246 -19.07714,-41.59721 -9.26896,-9.32693 -20.17418,-15.41929 -32.04688,-17.90344 -12.07962,-2.52744 -11.5,-2.89677 -11.5,7.3278 l 0,8.82715 6.62234,1.22021 c 25.64682,4.72561 42.60888,29.91001 37.26307,55.32627 -1.70737,8.1176 -5.51565,15.28583 -11.62893,21.88891 -9.2904,10.03474 -22.36114,14.83118 -33.77414,14.80915 -18.87159,-0.0364 -34.6297,-10.76021 -42.26723,-26.61851 0,0 -2.00072,-4.53281 -2.64368,-7.3339 -3.78112,-16.47262 -1.36425,-51.14861 -1.36425,-51.14861 l -0.29281,-50.70218 2.99315,-1.54782 c 1.64624,-0.8513 3.22509,-1.54782 3.50856,-1.54782 0.28348,0 0.64332,23.2875 0.79966,51.75 0,0 -3.63474,37.31048 0.85696,51.60841 0.64807,2.06292 1.87838,5.59129 1.87838,5.59129 3.93751,8.02193 10.24821,15.07824 18.44782,18.96221 6.22431,2.94831 9.35814,4.28257 18.56665,4.28257 6.0165,0 11.34645,-1.89912 17.47943,-4.71979 7.22973,-3.32509 15.52319,-12.14094 18.58795,-20.19011 8.44391,-22.17682 -3.31362,-46.03621 -25.96443,-52.68923 -9.25719,-2.71904 -9.0685,-2.86879 -9.0685,7.19725 l 0,8.79259 4.44367,1.1885 c 16.01729,4.28397 20.90468,25.75294 8.33065,36.78433 -4.44255,3.89751 -8.44566,5.62034 -15.4483,5.62034 -7.48261,0 -14.66512,-4.52898 -18.35759,-11.47551 -2.21805,-4.17274 -2.4053,-8.13076 -2.4053,-9.94354 0,-16.74472 -0.36271,-46.85969 -0.36271,-46.85969 l -0.29958,-51.65792 2.29958,-0.57115 c 1.26477,-0.31414 6.37663,-1.09143 11.3597,-1.72733 16.89981,-2.15661 41.90208,3.374 58.69901,12.98447 22.90004,13.1024 40.22757,35.61042 47.4421,61.6261 2.48162,8.94876 2.75823,11.55076 2.75823,25.94621 0,14.33118 -0.28286,17.01927 -2.71196,25.77235 -9.81247,35.35858 -34.77307,60.63503 -70.46342,71.35506 -7.51128,2.25611 -11.03,2.68631 -24.28408,2.96899 -10.69597,0.22812 -17.6284,-0.11017 -22.36718,-1.09147 z"
+                        id="path821"
+                      />
+                    </g>
+                  </svg>
+                </div>
+                <div class="skill__title">Bitrix</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-black" id="experience">
+          <div class="container">
+            <h2>Опыт работы</h2>
+            <div class="experience">
+              <div class="experience__item">
+                <div class="experience__top">
+                  <div class="experience__top-block">
+                    <a
+                      href="https://dancecolor.ru/"
+                      target="_blank"
+                      class="experience__title"
+                    >
+                      <img src="./img/dc-logo.svg" alt=""
+                    /></a>
+                    <div class="experience__date">
+                      апрель 2022 - настоящее время
+                    </div>
+                  </div>
+                </div>
+                <div class="experience__text">
+                  <ul>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Руководство
+                      командой разработчиков
+                    </li>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Разработка
+                      сайтов на Vue.js, Nuxt2.js и Nuxt3.js
+                    </li>
+
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Поддержка
+                      существующих проектов
+                    </li>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Рефакторинг
+                      Legacy-кода
+                    </li>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Разработка
+                      функционала авторизации и личного кабинета
+                    </li>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Внедрение
+                      системы оплат
+                    </li>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Синхронизация
+                      данных с сервером в режиме реального времени
+                    </li>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Интеграция с
+                      бекендом через REST API
+                    </li>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Разработка
+                      клиентских и серверны компонентов
+                    </li>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Раработка и
+                      поддержка сайтов на Битрикс и WordPress
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="experience__item">
+                <div target="_blank" class="experience__top">
+                  <div class="experience__top-block">
+                    <a
+                      href="https://www.web-canape.ru/"
+                      target="_blank"
+                      class="experience__title"
+                    >
+                      <img src="./img/canape-logo.png" alt=""
+                    /></a>
+                    <div class="experience__date">июнь 2019 - апрель 2022</div>
+                  </div>
+                </div>
+                <div class="experience__text">
+                  <ul>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span>
+                      Раработка сайтов на внутренней CanapeCMS, Битрикс,
+                      WordPress
+                    </li>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Разработка
+                      интернет-магазинов
+                    </li>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Создание
+                      кастомных шаблонов сайтов
+                    </li>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Адаптивная
+                      кроссбраузерная верстка
+                    </li>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Оптимизация
+                      скорости сайтов
+                    </li>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Поддержка
+                      существующих проектов
+                    </li>
+                    <li>
+                      <span class="mdi mdi-check-circle"></span> Внедрение
+                      микроразметки
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-black projects-section" id="about">
+          <div class="container">
+            <h2>Обо мне</h2>
+            <div class="about">
+              <div class="about__left">
+                <img src="./img/photo-2.jpg" alt="" />
+              </div>
+              <div class="about__right">
+                <p>
+                  Привет! Я Евгения, Frontend-разработчик с 5 годами
+                  коммерческого опыта. Специализируюсь на разработке
+                  современных, масштабируемых веб-приложений на Nuxt.js и
+                  Vue.js. Умею строить архитектуру фронтенда с нуля, работаю с
+                  SSR, Vuex/Pinia, REST API.
+                </p>
+                <p>
+                  В работе придерживаюсь принципов ООП и SOLID, стремлюсь к
+                  чистой, поддерживаемой архитектуре и качественному UI.
+                  Понимаю, как создать адаптивный, удобный и производительный
+                  интерфейс с фокусом на пользовательский опыт.
+                </p>
+                <p>
+                  Ищу проекты, где можно не только применять накопленный опыт,
+                  но и расти — технически, архитектурно и командно.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-black projects-section" id="projects">
+          <div class="container">
+            <div class="projects-section__text">
+              <h2>Недавние проекты</h2>
+            </div>
+            <div class="projects">
+              <div class="projects__item">
+                <a
+                  href="https://sportpitinvest.ru/"
+                  target="_blank"
+                  class="projects__logo"
+                >
+                  <img src="./img/sportpit-logo.svg" alt="" />
+                </a>
+                <div class="projects__content">
+                  <div class="projects__title">Спортпит-Инвест</div>
+                  <div class="projects__text">
+                    Разработанный с нуля и постоянно поддерживаемый
+                    интернет-магазин спортивного питания на Nuxt.js + Yii2.
+                    Имеет каталог с различными фильтрами, корзину, систему
+                    оплат, личный кабинет, а также различные виды скидок и
+                    системы бонусов. Сложный функционал личного кабинета с
+                    историей заказов, запоминанием разных адресов, различными
+                    скидками для оптовиков.
+                  </div>
+                  <a
+                    href="https://sportpitinvest.ru/"
+                    target="_blank"
+                    class="projects__btn"
+                    >Посмотреть проект</a
+                  >
+                </div>
+              </div>
+              <div class="projects__item">
+                <a
+                  href="https://miles-auto.com/"
+                  target="_blank"
+                  class="projects__logo"
+                >
+                  <img src="./img/miles-logo.svg" alt="" />
+                </a>
+                <div class="projects__content">
+                  <div class="projects__title">Miles</div>
+                  <div class="projects__text">
+                    Сайт для подбора автозапчастей на Nuxt.js + Yii2.
+                    Особенностью сайта MILES является наличие двух API, одно из
+                    которх связано с административной панелью сайта, а другое -
+                    с каталогом клиента, причем данные для каталога (более 3000
+                    товаров) не имеют англоязычной версии, при том, что заказчик
+                    хотел получить сайт на двух яыках. В итоге была реализована
+                    автоматическая система перевода на клиенте.
+                  </div>
+                  <a
+                    href="https://miles-auto.com/"
+                    target="_blank"
+                    class="projects__btn"
+                    >Посмотреть проект</a
+                  >
+                </div>
+              </div>
+              <div class="projects__item">
+                <a
+                  href="https://new.bankrot.cdtrf.ru/"
+                  target="_blank"
+                  class="projects__logo"
+                >
+                  <img src="./img/cdt-logo.svg" alt="" />
+                </a>
+                <div class="projects__content">
+                  <div class="projects__title">Центр дистанционных торгов</div>
+                  <div class="projects__text">
+                    Сервис проведения торгов на Nuxt3 + С#. На данном проекте
+                    заказчик пришел уже с готовой версткой, так что задача
+                    стояла лишь в интеграции API. Был реализован функционал
+                    авторизации, добавления торгов, фильтрации, проведения
+                    аукциона в реальном времени, подтверждения всех действий
+                    электронной подписью. Для административной части сайта была
+                    реализована возможность менять права пользователей,
+                    просматривать статистику, управлять торгами.
+                  </div>
+                  <a
+                    href="https://new.bankrot.cdtrf.ru/"
+                    target="_blank"
+                    class="projects__btn"
+                    >Посмотреть проект</a
+                  >
+                </div>
+              </div>
+              <div class="projects__item">
+                <a
+                  href="https://hcoatings.ru/"
+                  target="_blank"
+                  class="projects__logo"
+                >
+                  <img src="./img/hp-logo.svg" alt="" />
+                </a>
+                <div class="projects__content">
+                  <div class="projects__title">Горизонт покрытий</div>
+                  <div class="projects__text">
+                    Сайт компании, предоставляющей услуги и продукты в области
+                    обработки материалов, реализованный на Битрикс. Был создан
+                    кастомный шаблон, реализованы инфоблоки для разделов
+                    производства и технологий, а также сложный ajax-фильтр для
+                    вакансий.
+                  </div>
+                  <a
+                    href="https://hcoatings.ru/"
+                    target="_blank"
+                    class="projects__btn"
+                    >Посмотреть проект</a
+                  >
+                </div>
+              </div>
+              <div class="projects__item">
+                <a
+                  href="https://ec-asu.ru/"
+                  target="_blank"
+                  class="projects__logo"
+                >
+                  <img src="./img/tele-logo.svg" alt="" />
+                </a>
+                <div class="projects__content">
+                  <div class="projects__title">Телемеханика</div>
+                  <div class="projects__text">
+                    Несложный лендинг для компании, специализируюейся на сборке
+                    электрощитового оборудования и автоматизации промышленных
+                    комплексов и установок, созданный на WordPress с красивыми
+                    анимациями и формой WordPress, синхронизированной с Telegram
+                    заказчика.
+                  </div>
+                  <a
+                    href="https://hcoatings.ru/"
+                    target="_blank"
+                    class="projects__btn"
+                    >Посмотреть проект</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contacts" >
+          <div class="container">
+            <h2>Контакты</h2>
+            <ul class="contacts">
+              <li>
+                <a href="tel:+79517053647"
+                  ><span class="mdi mdi-phone"></span>+7 (951) 705 36-47</a
+                >
+              </li>
+              <li>
+                <a href="mailto:zhnyaka19@gmail.com">
+                  <span class="mdi mdi-email-outline"></span>
+                  zhnyaka19@gmail.com</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://hh.ru/resume/fbe638e2ff0b6231920039ed1f516b4f567471"
+                  target="blank"
+                  ><span class="mdi mdi-file-document"></span>Резюме на
+                  HeadHunter</a
+                >
+              </li>
+              <li class="contacts__socity">
+                <a href="https://t.me/zh_nyaka" target="_blank">
+                  <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="https://vk.com/id289449038" target="_blank">
+                  <i class="fa-brands fa-vk"></i>
+                </a>
+                <a href="https://wa.me/79517053647" target="_blank">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+      <!-- подвал -->
+      <footer class="page__footer"></footer>
+      <!-- подвал -->
+    </div>
+
+    <script src="libs/jquery-3.6.0.min.js"></script>
+    <script src="libs/jquery-ui.min.js"></script>
+    <script src="libs/swiper/swiper.min.js"></script>
+
+    <script src="libs/select2/select2.min.js"></script>
+    <script src="libs/fancybox/jquery.fancybox.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
