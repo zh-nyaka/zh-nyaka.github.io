@@ -15,9 +15,12 @@ $(document).ready(function () {
   // плавный скролл к якорю
   $("a[href*='#']").click(function (e) {
     e.preventDefault()
+    $('.js-mobile-menu').removeClass('open')
+    $(".js-mobile-menu__content").slideUp();
+
     $("html").animate(
       {
-        scrollTop: $($.attr(this, "href")).offset().top - 20,
+        scrollTop: $($.attr(this, "href")).offset().top - 60,
       },
       300
     );
